@@ -1,5 +1,5 @@
 language: java
 
-script:
+before_install:
   - cd talend.studio.parent.pom
   - mvn clean install
